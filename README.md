@@ -1,4 +1,4 @@
-# webpack-3-md5-hash
+# webpack-md5-hash-fixed
 
 Fork from https://github.com/erm0l0v/webpack-md5-hash
 
@@ -7,7 +7,7 @@ Plugin to replace a standard webpack chunkhash with md5.
 ## Installation
 
 ```
-npm install webpack-3-md5-hash --save-dev
+npm install webpack-md5-hash-fixed --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Just add this plugin as usual.
 
 // webpack.config.js
 
-var WebpackMd5Hash = require('webpack-3-md5-hash');
+var WebpackMd5Hash = require('webpack-md5-hash-fixed');
 
 module.exports = {
     // ...
